@@ -32,8 +32,8 @@ keymap {
             bindings = <
             &trans              &trans              &trans              &trans              &trans              &trans                                                      &trans              &kp KP_NUMLOCK      &kp KP_DIVIDE       &kp KP_MULTIPLY     &kp KP_MINUS        &trans
             &trans              &kp F1              &kp F2              &kp F3              &kp F4              &trans                                                      &trans              &kp KP_NUMBER_7     &kp KP_NUMBER_8     &kp KP_NUMBER_9     &kp KP_PLUS         &trans
-            &trans              &kp F5              &kp F6              &kp F7              &kp F8              &trans                                                      &kp GRAVE           &kp KP_NUMBER_4     &kp KP_NUMBER_5     &kp KP_NUMBER_6     &kp KP_ENTER        &trans
-            &trans              &kp F9              &kp F10             &kp F11             &kp F12             &trans              &trans               &trans             &kp EQUAL           &kp KP_NUMBER_1     &kp KP_NUMBER_2     &kp KP_NUMBER_3     &kp KP_DOT          &trans
+            &trans              &kp F5              &kp F6              &kp F7              &kp F8              &mkp MB1                                                    &trans              &kp KP_NUMBER_4     &kp KP_NUMBER_5     &kp KP_NUMBER_6     &kp KP_ENTER        &trans
+            &trans              &kp F9              &kp F10             &kp F11             &kp F12             &mkp MB2            &trans               &trans             &trans              &kp KP_NUMBER_1     &kp KP_NUMBER_2     &kp KP_NUMBER_3     &kp KP_DOT          &trans
                                                     &trans              &trans              &trans              &trans              &trans               &trans             &trans              &trans              &trans              &trans
             >;
 
@@ -46,8 +46,8 @@ keymap {
             bindings = <
             &bt BT_CLR          &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4                                                &trans              &trans              &trans              &trans              &trans              &kp DEL
             &trans              &trans              &kp INS             &kp PRINTSCREEN     &kp SCROLLLOCK      &trans                                                      &trans              &kp HOME            &kp UP              &kp END             &kp PG_UP           &trans
-            &trans              &trans              &kp K_PREV          &kp K_PP            &kp K_NEXT          &trans                                                      &mkp MB1            &kp LEFT            &kp DOWN            &kp RIGHT           &kp PG_DN           &trans
-            &trans              &trans              &kp K_VOL_DN        &kp K_MUTE          &kp K_VOL_UP        &trans              &trans              &trans              &mkp MB2            &kp BSPC            &kp RETURN          &kp DEL             &trans              &trans
+            &trans              &trans              &kp K_PREV          &kp K_PP            &kp K_NEXT          &trans                                                      &kp GRAVE           &kp LEFT            &kp DOWN            &kp RIGHT           &kp PG_DN           &trans
+            &trans              &trans              &kp K_VOL_DN        &kp K_MUTE          &kp K_VOL_UP        &trans              &trans              &trans              &kp EQUAL           &kp BSPC            &kp RETURN          &kp DEL             &trans              &trans
                                                     &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans              &trans
             >;
 
