@@ -1,10 +1,10 @@
 manifest:
     remotes:
-        - name: cakenes
-          url-base: https://github.com/cakenes
+        - name: zmkfirmware
+          url-base: https://github.com/zmkfirmware
     projects:
         - name: zmk
-          remote: cakenes
+          remote: zmkfirmware
           revision: main
           import: app/west.yml
     self:
