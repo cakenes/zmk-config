@@ -3,14 +3,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
 
-/* Rgb
-&led_strip {
-    chain-length = <6>;
-    // chain-length = <35>; // Per key + underglow
-    // chain-length = <29>; // Per key
-};
- */
-
 / {
     keymap {
         compatible = "zmk,keymap";
