@@ -1,4 +1,4 @@
-## Zmk firmware for sofle v2
+## Zmk firmware for sofle v2 & Parts list
 ### Generated with: https://keymap-drawer.streamlit.app/
 
 ![Keymap](keymap.svg)
@@ -15,3 +15,8 @@
 - Kailh Low Profile Choc Switches Pink (linear / 20gf mod keys)
 - MoErgo POM MBK-Profile Keycaps
 - MBK PBT Coloured Blank Keycaps (mod keys)
+
+#### "Case"
+- Aurora Sofle v2 Low Profile Case Bottom (Puck Plate)
+- Aurora Sofle v2 Low Profile Case Top (Plate Black FR4)
+- Aurora Low Profile Case Hardware Kit
